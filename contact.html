@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        h1 {
+            padding: 10px;
+            background-color: #000542;
+            text-align: center;
+            color: azure;
+        }
+
+        footer {
+            text-align: center;
+            text-size-adjust: small;
+            color: grey;
+            margin-top: 100px;
+        }
+
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Heading-->
+    <h1>Welcome to my Portfolio</h1>
+    <a href="index.html">HOME</a>
+    <a href="interest.html">INTREST</a>
+    <a href="friends.html">FRIEND LIST</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="contact.html">CONTACT ME</a>
+    <a href="HtmlTags.html">ABOUT WEBSITE</a>
+    <!--Contact -->
+    <h3>Contact Me</h3>
+    <form>
+        <fieldset>
+            <legend>Please enter your details:</legend>
+            <label>Full Name</label>
+            <input type="text" name="fullName" placeholder="Enter full name">
+            <br>
+            <label>Phone Number:</label>
+            <input type="number" name="phone" placeholder="Enter Phone Number">
+            <br>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Use your name as password">
+            <br>
+            <label>Gender:</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Others
+            <br>
+            <label>Country:</label>
+            <select>
+                <option>Choose your country</option>
+                <option>Nepal</option>
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>Afghanistan</option>
+                <option>Bhutan</option>
+                <option>Sri Lanka</option>
+                <option>Maldives</option>
+            </select>
+            <br>
+            <label>Your Interests:[You can choose multiple options]</label>
+            <br>
+            <input type="checkbox" name="playing">Playing
+            <input type="checkbox" name="dancing">Dancing
+            <input type="checkbox" name="reading"> Reading
+            <input type="checkbox" name="travelling">Travelling
+            <br>
+            <label>Hiddenfield</label>
+            <input type="hidden" name="hidden">
+            <br>
+            <label>Message:</label>
+            <br>
+            <textarea>
+        </textarea>
+        <br>
+        <input type="submit" name="submit">
+        </fieldset>
+    </form>
+    <footer>
+        <em>&copy;copyright 2022 Diwakar Thapa</em>
+    </footer>
+</body>
+
+</html>
