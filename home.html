@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
     <style>
-      header,footer {
+      header,
+      footer {
         padding: 10px;
         background-color: #000542;
         text-align: center;
@@ -22,16 +23,29 @@
 
       p {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align:justify;
       }
-      nav ul li{
-        display: inline;
-        padding:10px;
-        text-align:center;
+      nav ul li {
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
         background-color: black;
-        color:white;
+        color: white;
+        margin-bottom: 10px;
       }
       a {
-          color:white;
+        color: white;
+      }
+      img {
+        border-radius: 17px;
+        border: 5px solid rgb(12, 12, 12);
+        padding: 5px;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+      }
+      img:hover {
+        box-shadow: 0 0 6px 3px rgba(0, 140, 186, 0.5);
       }
     </style>
   </head>
@@ -42,42 +56,60 @@
       <h1>Welcome to my Portfolio</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">MENU</a></li>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="interest.html">INTREST</a></li>
-            <li><a href="friends.html">FRIEND LIST</a></li>
-            <li><a href="gallery.html">GALLERY</a></li>
-            <li><a href="contact.html">CONTACT ME</a></li>
-            <li> <a href="HtmlTags.html">ABOUT WEBSITE</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">MENU</a></li>
+        <li><a href="interest.html">INTREST</a></li>
+        <li><a href="friends.html">FRIEND LIST</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="contact.html">CONTACT ME</a></li>
+        <li><a href="HtmlTags.html">ABOUT WEBSITE</a></li>
+        <li>
+          <a href="https://sites.google.com/view/diwakarthapa542"
+            >PORTFOLIO SITE</a
+          >
+        </li>
+      </ul>
     </nav>
-    
-    
-    
-    
-    
-   
+
     <!--About myself-->
-    <h3>About Myself</h3>
+    <div style="text-align: center">
+      <h2>About Myself</h2>
+    </div>
     <div class="row">
-        <div class="column">
-    <img src="img/img1.jpg" height="500" width="400" />
-</div>
-<div class="column">
-    <p title="About Diwakar Thapa">
-      In this generation of technology, <strong>Diwakar Thapa</strong> is the
-      familiar tech personality. He is passionate on helping peoplple out and
-      has great contribution in the field of Nepal tech as many people consider
-      his works effective. He has not only developed himself but helped people
-      to understand new concepts and provided tools so that they can excel in
-      their passion. He has developed
-      <em>website, desktop software, android and ios apps as per the need of
-        people</em>. He is dedicated with his woek and people have apreciated that and also
-      provided positive feedbacks guarateeing customer satisfaction.
-    </p>
-</div>
-</div>
+      <div class="column">
+        <a href="img/img1.jpg">
+          <img src="img/img1.jpg" height="500" width="400" />
+        </a>
+      </div>
+      <div class="column">
+        <p title="About Diwakar Thapa">
+          In this era of technology, <strong>Diwakar Thapa</strong> is a
+          familiar tech personality. He is passionate about assisting people and
+          has amazing contributions to the area of Nepal tech as many humans
+          think his work is effective. He has not only developed himself however
+          helped people to understand new principles and furnished equipment so
+          that they can excel in their passion. He has developed
+          <em>websites, desktop software, android and iOS apps</em> as per the
+          need of people. He is dedicated to his work and people have apreciated
+          that and also furnished wonderful feedback guaranteeing patron
+          satisfaction.
+        </p>
+        <p title="About Diwakar Thapa in another form">
+          <strong>Diwakar Thapa</strong> is a well-known technology personality
+          in this day and age. He is passionate about assisting people and has
+          made significant contributions to the field of Nepal technology, as
+          many people believe his work is effective. He has not only developed
+          himself, but has also assisted others in understanding new principles
+          and providing equipment so that they can excel in their passion. He
+          has created
+          <em
+            >websites, desktop software, android and iOS apps to meet people's
+            needs</em
+          >. He is dedicated to his work, and people have recognized that. He
+          has also provided excellent feedback, ensuring customer satisfaction.
+        </p>
+      </div>
+    </div>
 
     <!--My Intrest-->
 
