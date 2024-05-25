@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,70 +12,307 @@
             margin: 0;
             padding: 0;
             background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
+
         header {
-            background-color: #333;
+            background-color: #000542;
             color: #fff;
             text-align: center;
             padding: 1rem;
         }
+
         nav {
-            background-color: #444;
-            color: #fff;
+            background-color: #3772dd;
+            color: white;
             padding: 0.5rem;
+            margin-top: 2px;
+            text-align: center;
         }
+
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
         }
+
         nav ul li {
             display: inline-block;
             margin-right: 1rem;
         }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #555;
+        }
+
         /* Placeholder styles for images */
         .placeholder-image {
-            width: 200px;
-            height: 150px;
+            
+            height: auto;
             background-color: #ddd;
             border: 1px solid #999;
             margin: 1rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+    <!-- for description -->
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .container li {
+            background: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .icon {
+            font-size: 24px;
+            margin-right: 10px;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>CSIT HUB</h1>
     </header>
+<!-- bachelors navbar -->
     <nav>
         <ul>
-            <li>Level
-                <ul>
-                    <li>Bachelors</li>
-                    <li>Masters
-                        <ul>
-                            <li>First Semester</li>
-                            <li>Second Semester</li>
-                            <li>Third Semester</li>
-                            <li>Fourth Semester</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
+            <li style="font-size: larger;"><a href="bachelors.html"> Bachelors </a></li>
+            <ul>
+                <li>First Semester</li>
+                <li>Second Semester</li>
+                <li>Third Semester</li>
+                <li>Fourth Semester</li>
+                <li> Fifth Semester</li>
+                <li> <a href="bachelors.html"> Sixth Semestr </a> </li>
+                <li> Seventh Semester</li>
+                <li> Eighth Semester </li>
+            </ul>
+        </ul>
+    </nav>
+    <!-- masters navbar -->
+    <nav>
+        <ul>
+            <li style="font-size: larger;"><a href="masters.html"> Masters </a></li>
+            <ul>
+                <li><a href="firstsem">First Semester </a> </li>
+                <li><a href="secondsem">Second Semester </a></li>
+                <li><a href="thirdsem"> Third Semester </a></li>
+                <li> <a href="fourthsem"> Fourth Semester</a> </li>
+            </ul>
         </ul>
     </nav>
     <main>
-        <h2>About CSIT</h2>
-        <p>
-            Computer Science and Information Technology (CSIT) is an interdisciplinary field that combines principles of computer science with practical applications in information technology. CSIT graduates are equipped with skills in programming, database management, networking, and software development.
-        </p>
-        <p>
-            
-            <div class="placeholder-image">
-                <img src="tulogo.webp" alt="image of csit"/>
+
+
+        <div>
+            <div class="container">
+
+                <h1>About CSIT</h1>
+
+                <p>
+                    Computer Science and Information Technology (CSIT) is an interdisciplinary field that combines
+                    principles of computer science with practical applications in information technology.
+                    CSIT graduates are equipped with skills in programming, database management, networking, and
+                    software development.
+                </p>
+
+                <div class="placeholder-image">
+                    <img src="img/tulogo.webp" alt="image of csit" class="center" />
+                </div>
+
+                <div class="description">
+                    <h2>🏔️ The Himalayan Roots of CSIT in Nepal</h2>
+
+                    <h2>1. Historical Context</h2>
+                    <p>Nepal, nestled between India and China, has a long history of embracing technology and education.
+                        The
+                        formal journey of CSIT in Nepal began in the early 2000s with the establishment of dedicated
+                        CSIT
+                        programs at various universities.</p>
+
+                    <h2>2. Academic Institutions</h2>
+                    <ul>
+                        <li>
+                            <h3>Tribhuvan University (TU)</h3>
+                            <p>TU, the oldest and largest university in Nepal, offers a Bachelor’s degree in CSIT. It
+                                laid
+                                the foundation for CSIT education in the country.</p>
+                        </li>
+                        <li>
+                            <h3>Purbanchal University</h3>
+                            <p>Another pioneer, Purbanchal University also offers a CSIT program.</p>
+                        </li>
+                        <li>
+                            <h3>Kathmandu University (KU)</h3>
+                            <p>KU, known for its picturesque campus, provides a rigorous CSIT curriculum.</p>
+                        </li>
+                        <li>
+                            <h3>Pokhara University</h3>
+                            <p>Located in the scenic city of Pokhara, it contributes to CSIT education.</p>
+                        </li>
+                    </ul>
+
+                    <h2>3. Curriculum and Courses</h2>
+                    <p>The CSIT curriculum covers a wide spectrum:</p>
+                    <ul>
+                        <li>Programming Languages: Students learn languages like C++, Java, Python, and web technologies
+                            (HTML, CSS, JavaScript).</li>
+                        <li>Data Structures and Algorithms: The backbone of problem-solving.</li>
+                        <li>Database Management Systems: SQL, normalization, and database design.</li>
+                        <li>Networking: TCP/IP, routing, security.</li>
+                        <li>Software Engineering: SDLC, testing, project management.</li>
+                        <li>Operating Systems: Concepts, processes, memory management.</li>
+                        <li>Artificial Intelligence and Machine Learning: Emerging fields gaining prominence.</li>
+                    </ul>
+
+                    <h2>4. Challenges and Opportunities</h2>
+                    <ul>
+                        <li>Infrastructure: While universities have made progress, infrastructure challenges persist.
+                            Labs,
+                            libraries, and high-speed internet remain areas for improvement.</li>
+                        <li>Industry-Academia Gap: Bridging the gap between academia and industry is crucial.
+                            Internships,
+                            guest lectures, and collaboration can enhance practical skills.</li>
+                        <li>Research and Innovation: Encouraging research and innovation is vital. Nepal has immense
+                            potential for solving local and global problems through CSIT.</li>
+                    </ul>
+
+                    <h2>🌆 The Urban Centers of CSIT Excellence</h2>
+
+                    <h3>1. Kathmandu Valley</h3>
+                    <ul>
+                        <li>
+                            <h4>Kathmandu</h4>
+                            <p>The capital city hosts several CSIT colleges and IT companies. Students flock here for
+                                education and job opportunities.</p>
+                        </li>
+                        <li>
+                            <h4>Patan (Lalitpur)</h4>
+                            <p>Known for its ancient architecture, Patan houses KU’s School of Engineering and other
+                                CSIT
+                                institutions.</p>
+                        </li>
+                    </ul>
+
+                    <h2>2. Industry and Entrepreneurship</h2>
+                    <ul>
+                        <li>Startups: Nepal’s startup ecosystem is burgeoning. Companies like F1Soft International,
+                            Leapfrog
+                            Technology, and Deerwalk Services are making waves.</li>
+                        <li>Outsourcing: Nepal is becoming a hub for outsourcing software development, especially web
+                            and
+                            mobile applications.</li>
+                        <li>Freelancing: Talented CSIT graduates engage in global freelancing platforms.</li>
+                    </ul>
+
+                    <h2>🌄 The Dawn of Digital Transformation</h2>
+
+                    <h3>1. E-Governance and Digital Services</h3>
+                    <ul>
+                        <li>Nepal is gradually adopting e-governance systems. Initiatives like eSewa, Nagarik App, and
+                            Online Passport Application simplify citizen services.</li>
+                        <li>Smart Cities: Kathmandu envisions becoming a smart city, leveraging technology for urban
+                            management.</li>
+                    </ul>
+
+                    <h3>2. Mobile Penetration and Connectivity</h3>
+                    <ul>
+                        <li>Mobile phones are ubiquitous. Internet penetration is increasing, driving demand for mobile
+                            apps
+                            and digital content.</li>
+                    </ul>
+
+                    <h2>🌊 The Serene Lakes of Research and Collaboration</h2>
+
+                    <h3>1. Research Centers</h3>
+                    <ul>
+                        <li>Madan Puraskar Pustakalaya (MPP): MPP digitizes Nepali literature and promotes digital
+                            preservation.</li>
+                        <li>Nepal Research and Education Network (NREN): Facilitates collaboration among universities
+                            and
+                            research institutions.</li>
+                    </ul>
+
+                    <h3>2. Hackathons and Tech Events</h3>
+                    <ul>
+                        <li>FOSS Nepal Community: Promotes open-source software and organizes events.</li>
+                        <li>ICT Meet: An annual tech conference bringing together enthusiasts, professionals, and
+                            students.
+                        </li>
+                    </ul>
+
+                    <h2>🌟 The Constellation of CSIT Graduates</h2>
+
+                    <h3>1. Global Impact</h3>
+                    <ul>
+                        <li>Nepali CSIT graduates work worldwide—Silicon Valley, Europe, Australia, and beyond.</li>
+                        <li>They contribute to cutting-edge projects, startups, and research.</li>
+                    </ul>
+
+                    <h3>2. The Future</h3>
+                    <ul>
+                        <li>As Nepal embraces digital transformation, CSIT will play a pivotal role.</li>
+                        <li>Imagine AI-powered yaks delivering packages across mountain trails!</li>
+                    </ul>
+
+                    <p>In summary, CSIT in Nepal is like a prayer.</p>
+                </div>
+
+
             </div>
-        </p>
+
+
+        </div>
+
     </main>
     <!-- You can add more content here -->
 </body>
+
 </html>
