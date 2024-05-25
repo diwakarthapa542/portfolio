@@ -1,0 +1,9 @@
+/* tu image placeholder */
+.placeholder-image {            
+    height: auto;          
+    margin: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
