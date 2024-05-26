@@ -1,97 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friends</title>
     <style>
-        h1{
+        html,
+        body {
+            opacity: 1;
+            /* height: 100vh; */
+            /* Set the height to 100% of the viewport height */
+            /* margin: 0; */
+            /* Remove default margin */
+            /* overflow: hidden; */
+            /* Prevent vertical scrolling */
+        }
+
+        .background {
+            background: lightblue url('img/divskubs.jpg')no-repeat center;
+
+        }
+
+        table {
+            font-size: x-large;
+            color: rgb(0, 0, 0);
+            background-color: inherit;
+            padding: 10px;
+            margin: 0;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+
+        }
+
+        th,
+        tr,
+        td {
+            padding: 5px;
+            margin: 2px;
+        }
+
+        h1 {
             padding: 10px;
             background-color: #000542;
             text-align: center;
             color: azure;
         }
-        footer{
+
+        footer {
+            background-color: #000542;
             text-align: center;
             text-size-adjust: small;
-            color:grey;
+            color: grey;
             margin-top: 100px;
         }
-        p{
+
+        p {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-        table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-    </style>
-</head>
-<body>
-    <!--Heading-->
-    <h1>Welcome to my Portfolio</h1>
-   <a href="home.html">HOME</a>
-   <a href="interest.html">INTREST</a>
-   <a href="friends.html">FRIEND LIST</a>
-   <a href="gallery.html">GALLERY</a>
-   <a href="contact.html">CONTACT ME</a>
-   <a href="HtmlTags.html">ABOUT WEBSITE</a>
-   <!--Contacts-->
- <table>
-    <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Address</th>
-        <th>Phone Number</th>
-        <th>Email Address</th>
-    </tr>
-    <tr>
-        <td>Kuber Jung</td>
-        <td>Thapa</td>
-        <td>Gothgaun</td>
-        <td>9812345678</td>
-        <td>kuberjungthapa@gmail.com</td>
-     </tr>
-     <tr>
-        <td>Bisha </td>
-        <td>Bhandari</td>
-        <td>Tarahara</td>
-        <td>9809876543</td>
-        <td>bishabhandari@gmail.com</td>
-     </tr>
-     <tr>
-        <td>Nabal Chamling </td>
-        <td>Rai</td>
-        <td>Morang</td>
-        <td>9809236543</td>
-        <td>nabalchamlingrai@gmail.com</td>
-     </tr>
-     <tr>
-        <td>Kuber Jung</td>
-        <td>Thapa</td>
-        <td>Gothgaun</td>
-        <td>9812345678</td>
-        <td>kuberjungthapa@gmail.com</td>
-     </tr>
-     <tr>
-        <td>Bisha </td>
-        <td>Bhandari</td>
-        <td>Tarahara</td>
-        <td>9809876543</td>
-        <td>bishabhandari@gmail.com</td>
-     </tr>
-     <tr>
-        <td>Nabal Chamling </td>
-        <td>Rai</td>
-        <td>Morang</td>
-        <td>9809236543</td>
-        <td>nabalchamlingrai@gmail.com</td>
-     </tr>
- </table>
 
-    <!-- copyright information -->
-    <footer>
-        <em>&copy;copyright 2022 Diwakar Thapa</em>
-    </footer>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+    <!-- for navbar -->
+    <link rel="stylesheet" href="css/nav.css">
+
+</head>
+
+<body>
+    <div class="background">
+        <!--Heading-->
+        <h1>Welcome to my Portfolio</h1>
+
+        <!-- implementing navbar -->
+        <ul class="navbar">
+            <li> <a href="home.html">HOME</a> </li>
+            <li> <a href="interest.html">INTREST</a> </li>
+            <li> <a href="friends.html">FRIEND LIST</a> </li>
+            <li> <a href="gallery.html">GALLERY</a> </li>
+            <li> <a href="contact.html">CONTACT ME</a> </li>
+            <li> <a href="HtmlTags.html">ABOUT WEBSITE</a> </li>
+        </ul>
+
+
+
+
+
+
+
+        <!--Contacts-->
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+                <th>Email Address</th>
+            </tr>
+            <tr>
+                <td>Kuber Jung</td>
+                <td>Thapa</td>
+                <td>Gothgaun</td>
+                <td>9812345678</td>
+                <td>kuberjungthapa@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kuber Jung</td>
+                <td>Thapa</td>
+                <td>Gothgaun</td>
+                <td>9812345678</td>
+                <td>kuberjungthapa@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kuber Jung</td>
+                <td>Thapa</td>
+                <td>Gothgaun</td>
+                <td>9812345678</td>
+                <td>kuberjungthapa@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kuber Jung</td>
+                <td>Thapa</td>
+                <td>Gothgaun</td>
+                <td>9812345678</td>
+                <td>kuberjungthapa@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kuber Jung</td>
+                <td>Thapa</td>
+                <td>Gothgaun</td>
+                <td>9812345678</td>
+                <td>kuberjungthapa@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kuber Jung</td>
+                <td>Thapa</td>
+                <td>Gothgaun</td>
+                <td>9812345678</td>
+                <td>kuberjungthapa@gmail.com</td>
+            </tr>
+        </table>
+        <h1> VISIT KUBER JUNG THAPA WEBSITE</h1>
+        <h2 style="text-align: center;"><a href="#kubbs"> click here </a> </h2>
+        <h2 style="text-align: center; margin-top: -20px;"><a href="#kubbs"> <img src="img/down.jpg" height="60"></a>
+        </h2>
+
+
+        <!-- copyright information -->
+        <footer style="margin-top: 2000px;">
+            <em>&copy;copyright 2022 Diwakar Thapa</em>
+        </footer>
+    </div>
+    <iframe src="https://kuberjungthapa.com.np/index.html" title="kubbs webiste" id="kubbs" height="2000" width="100%"
+        ;>
+    </iframe>
 </body>
+
 </html>

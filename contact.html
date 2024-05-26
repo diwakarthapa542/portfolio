@@ -7,6 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <style>
+
+        body{
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url('img/fewaTEa.JPG');
+            background-size:cover;
+        }
+        fieldset{
+            font-size: xx-large;
+            padding: 20px;
+            margin: 10px;
+        }
+        label{
+            
+            padding: 10px;
+        }
+        input{
+            font-size: x-large;
+           
+        }
+        select{
+            font-size: x-large;
+        }
+        option{
+            font-size: x-large;
+            padding: 10px;
+        }
+        
+
         h1 {
             padding: 10px;
             background-color: #000542;
@@ -16,28 +44,33 @@
 
         footer {
             text-align: center;
+            background-color: #000542;
             text-size-adjust: small;
             color: grey;
-            margin-top: 100px;
+            margin-top: 1500px;
         }
 
         p {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
     </style>
+
+        <!-- for navbar -->
+        <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <body>
-    <!--Heading-->
-    <h1>Welcome to my Portfolio</h1>
-    <a href="home.html">HOME</a>
-    <a href="interest.html">INTREST</a>
-    <a href="friends.html">FRIEND LIST</a>
-    <a href="gallery.html">GALLERY</a>
-    <a href="contact.html">CONTACT ME</a>
-    <a href="HtmlTags.html">ABOUT WEBSITE</a>
+    <!-- implementing navbar -->
+    <ul class="navbar">
+        <li>        <a href="home.html">HOME</a>                </li>
+        <li>       <a href="interest.html">INTREST</a>          </li>
+        <li>        <a href="friends.html">FRIEND LIST</a>      </li>
+        <li>        <a href="gallery.html">GALLERY</a>          </li>
+        <li>        <a href="contact.html">CONTACT ME</a>       </li>
+        <li>         <a href="HtmlTags.html">ABOUT WEBSITE</a>  </li>
+    </ul>
     <!--Contact -->
-    <h3>Contact Me</h3>
+    <h1>Contact Me</h1>
     <form>
         <fieldset>
             <legend>Please enter your details:</legend>
@@ -48,7 +81,7 @@
             <input type="number" name="phone" placeholder="Enter Phone Number">
             <br>
             <label>Password:</label>
-            <input type="password" name="password" placeholder="Use your name as password">
+            <input type="password" name="password" placeholder="Create a password">
             <br>
             <label>Gender:</label>
             <input type="radio" name="gender">Male
