@@ -25,64 +25,83 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
     </style>
+        <!-- for navbar -->
+        <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <body>
     <!--Heading-->
     <h1>Welcome to my Portfolio</h1>
-    <a href="home.html">HOME</a>
-    <a href="interest.html">INTREST</a>
-    <a href="friends.html">FRIEND LIST</a>
-    <a href="gallery.html">GALLERY</a>
-    <a href="contact.html">CONTACT ME</a>
-    <a href="HtmlTags.html">ABOUT WEBSITE</a>
+    <!-- navbar -->
+    <ul class="navbar">
+        <li> <a href="home.html">HOME</a> </li>
+        <li> <a href="interest.html">INTREST</a> </li>
+        <li> <a href="friends.html">FRIEND LIST</a> </li>
+        <li> <a href="gallery.html">GALLERY</a> </li>
+        <li> <a href="contact.html">CONTACT ME</a> </li>
+        <li> <a href="HtmlTags.html">ABOUT WEBSITE</a> </li>
+    </ul>
     <!--About myself-->
     <div style="text-align:center">
-    <h2>My Gallery</h2>
-    <h4>Avatar</h4>
-    <a href="img/avatar.png">
+        <h2>My Gallery</h2>
+        <h4>Avatar</h4>
+        <a href="img/avatar.png">
+            <img src="img/avatar.png" height="300" width="300">
+            <img src="img/avatar.png" height="300" width="300">
+            <img src="img/avatar.png" height="300" width="300"></a>
         <img src="img/avatar.png" height="300" width="300">
-        <img src="img/avatar.png" height="300" width="300">
-        <img src="img/avatar.png" height="300" width="300"></a>
-    <img src="img/avatar.png" height="300" width="300">
 
-    <h4>JAIMS</h4>
-    <a href="img/JAIMS.png">
-        <img src="img/JAIMS.png" alt="JAIMS Logo" height="300" width="300">
-        <img src="img/JAIMS.png" alt="JAIMS Logo" height="300" width="300">
-        <img src="img/JAIMS.png" alt="JAIMS Logo" height="300" width="300">
-        <img src="img/JAIMS.png" alt="JAIMS Logo" height="300" width="300">
-    </a>
+        <h4>JAIMS</h4>
+        <a href="img/JAIMS.png">
+            <img src="img/JAIMS.png" alt="JAIMS Logo" height="300" width="300">
+            <img src="img/JAIMS.png" alt="JAIMS Logo" height="300" width="300">
+            <img src="img/JAIMS.png" alt="JAIMS Logo" height="300" width="300">
+            <img src="img/JAIMS.png" alt="JAIMS Logo" height="300" width="300">
+        </a>
 
-    <h4>Vehicle Management System</h4>
-    <a href="img/VMS.png">
-        <img src="img/VMS.png" height="300" width="300">
-        <img src="img/VMS.png" height="300" width="300">
-        <img src="img/VMS.png" height="300" width="300">
-        <img src="img/VMS.png" height="300" width="300">
-    </a>
+        <h4>Vehicle Management System</h4>
+        <a href="img/VMS.png">
+            <img src="img/VMS.png" height="300" width="300">
+            <img src="img/VMS.png" height="300" width="300">
+            <img src="img/VMS.png" height="300" width="300">
+            <img src="img/VMS.png" height="300" width="300">
+        </a>
 
-    <h4>Ramro Patrika</h4>
-    <a href="img/RamroPatrika.png">
-        <img src="img/RamroPatrika.png" alt="Ramro Patrika Logo" heiht="300" width="300">
-        <img src="img/RamroPatrika.png" alt="Ramro Patrika Logo" heiht="300" width="300">
-        <img src="img/RamroPatrika.png" alt="Ramro Patrika Logo" heiht="300" width="300">
-        <img src="img/RamroPatrika.png" alt="Ramro Patrika Logo" heiht="300" width="300">
-    </a>
-</div>
+        <h4>Ramro Patrika</h4>
+        <a href="img/RamroPatrika.png">
+            <img src="img/RamroPatrika.png" alt="Ramro Patrika Logo" heiht="300" width="300">
+            <img src="img/RamroPatrika.png" alt="Ramro Patrika Logo" heiht="300" width="300">
+            <img src="img/RamroPatrika.png" alt="Ramro Patrika Logo" heiht="300" width="300">
+            <img src="img/RamroPatrika.png" alt="Ramro Patrika Logo" heiht="300" width="300">
+        </a>
+    </div>
+    <!-- interest ma raichha ra milara lyara ya haleko -->
+    <div class="imported">
+                <!-- Hamro Nepal Ramro Nepal -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Sb-JCLN-ph0" title="MyVieo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <!-- Html in 100 seconds -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ok-plXXHlWw" title="HTML" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+                <br>
+            <!-- TSNPL ko VSMS ko iframe -->
+            <iframe src="http://tsnpl.com.np/vsms" height="100%" width="100%"></iframe>
+    </div>
     <!-- Audio -->
-<div>
-    <p>Sample Audio</p>
-    <audio controls>
-        <source src="audio/audio1.m4a" type="audio/mpeg">
-    </audio>
-</div>
-<div>
-    <p>Sample Video</p>
-    <video controls height="400" width="600"> 
-        <source src="video/studyVlog1.mp4" type="video/mp4">
-    </video>
-</div>
+    <div>
+        <p>Sample Audio</p>
+        <audio controls>
+            <source src="audio/audio1.m4a" type="audio/mpeg">
+        </audio>
+    </div>
+    <div>
+        <p>Sample Video</p>
+        <video controls height="400" width="600">
+            <source src="video/studyVlog1.mp4" type="video/mp4">
+        </video>
+    </div>
     <footer>
         <em>&copy;copyright 2022 Diwakar Thapa</em>
     </footer>
