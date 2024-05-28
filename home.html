@@ -1,114 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
     <style>
-      header,
-      footer {
-        padding: 10px;
-        background-color: #000542;
-        text-align: center;
-        color: azure;
-      }
+        header,
+        footer {
+            padding: 10px;
+            background-color: #000542;
+            text-align: center;
+            color: azure;
+        }
 
-      footer {
-        text-align: center;
-        text-size-adjust: small;
-        color: grey;
-        margin-top: 100px;
-      }
+        footer {
+            text-size-adjust: small;
+            color: grey;
+        }
 
-      p {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align:justify;
-      }
-      nav ul li {
-        display: inline-block;
-        padding: 10px;
-        text-align: center;
-        background-color: black;
-        color: white;
-        margin-bottom: 10px;
-      }
-      a {
-        color: white;
-      }
-      img {
-        border-radius: 17px;
-        border: 5px solid rgb(12, 12, 12);
-        padding: 5px;
-        max-width: 100%;
-        height: auto;
-        text-align: center;
-      }
-      img:hover {
-        box-shadow: 0 0 6px 3px rgba(0, 140, 186, 0.5);
-      }
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+        }
+
+
+        a {
+            color: white;
+        }
+
+        img {
+            border-radius: 17px;
+            border: 5px solid rgb(12, 12, 12);
+            padding: 5px;
+            max-width: 80%;
+ 
+        }
+
+        img:hover {
+            box-shadow: 0 0 6px 3px rgba(0, 140, 186, 0.5);
+        }
     </style>
-  </head>
+    <!-- new nav -->
+    <link rel="stylesheet" href="css/newnav.css">
 
-  <body>
+    <!-- image ra text side by side with responsive design -->
+    <link rel="stylesheet" href="css/imgtext.css">
+</head>
+
+<body>
     <!--Heading-->
     <header>
-      <h1>Welcome to my Portfolio</h1>
+        <h1>Welcome to my Portfolio</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">MENU</a></li>
-        <li><a href="interest.html">INTREST</a></li>
-        <li><a href="friends.html">FRIEND LIST</a></li>
-        <li><a href="gallery.html">GALLERY</a></li>
-        <li><a href="contact.html">CONTACT ME</a></li>
-        <li><a href="HtmlTags.html">ABOUT WEBSITE</a></li>
-        <li>
-          <a href="https://sites.google.com/view/diwakarthapa542"
-            >PORTFOLIO SITE</a
-          >
-        </li>
-      </ul>
-    </nav>
+    <div class="nav-container">
+        <a href="index.html" class="nav-item">Menu</a>
+        <a href="interest.html" class="nav-item">Interest</a>
+        <a href="friends.html" class="nav-item">Friend List</a>
+        <a href="gallery.html" class="nav-item">Gallery</a>
+        <a href="contact.html" class="nav-item">Contact Me</a>
+        <a href="HtmlTags.html" class="nav-item">About Website</a>
+        <a href="https://sites.google.com/view/diwakarthapa542" target="_blank" rel="noopener noreferrer"
+            class="nav-item">Portfolio Site</a>
+    </div>
+
 
     <!--About myself-->
     <div style="text-align: center">
-      <h2>About Myself</h2>
+        <h2>About Myself</h2>
+
+        <div class="image-text-container">
+            <div class="image-container">
+                <a href="img/img1.jpg">
+                    <img src="img/img1.jpg" height="500" width="400" alt="Diwakar's photo" class="image">
+                </a>
+            </div>
+            <div class="text-container">
+                <p>
+                <p title="About Diwakar Thapa">
+                    In this era of technology, <strong>Diwakar Thapa</strong> is a
+                    familiar tech personality. He is passionate about assisting people and
+                    has amazing contributions to the area of Nepal tech as many humans
+                    think his work is effective. He has not only developed himself however
+                    helped people to understand new principles and furnished equipment so
+                    that they can excel in their passion. He has developed
+                    <em>websites, desktop software, android and iOS apps</em> as per the
+                    need of people. He is dedicated to his work and people have apreciated
+                    that and also furnished wonderful feedback guaranteeing patron
+                    satisfaction.
+                </p>
+                <p title="About Diwakar Thapa in another form">
+                    <strong>Diwakar Thapa</strong> is a well-known technology personality
+                    in this day and age. He is passionate about assisting people and has
+                    made significant contributions to the field of Nepal technology, as
+                    many people believe his work is effective. He has not only developed
+                    himself, but has also assisted others in understanding new principles
+                    and providing equipment so that they can excel in their passion. He
+                    has created
+                    <em>websites, desktop software, android and iOS apps to meet people's
+                        needs</em>. He is dedicated to his work, and people have recognized that. He
+                    has also provided excellent feedback, ensuring customer satisfaction.
+                </p>
+                </p>
+            </div>
+        </div>
+
     </div>
     <div class="row">
-      <div class="column">
-        <a href="img/img1.jpg">
-          <img src="img/img1.jpg" height="500" width="400" />
-        </a>
-      </div>
-      <div class="column">
-        <p title="About Diwakar Thapa">
-          In this era of technology, <strong>Diwakar Thapa</strong> is a
-          familiar tech personality. He is passionate about assisting people and
-          has amazing contributions to the area of Nepal tech as many humans
-          think his work is effective. He has not only developed himself however
-          helped people to understand new principles and furnished equipment so
-          that they can excel in their passion. He has developed
-          <em>websites, desktop software, android and iOS apps</em> as per the
-          need of people. He is dedicated to his work and people have apreciated
-          that and also furnished wonderful feedback guaranteeing patron
-          satisfaction.
-        </p>
-        <p title="About Diwakar Thapa in another form">
-          <strong>Diwakar Thapa</strong> is a well-known technology personality
-          in this day and age. He is passionate about assisting people and has
-          made significant contributions to the field of Nepal technology, as
-          many people believe his work is effective. He has not only developed
-          himself, but has also assisted others in understanding new principles
-          and providing equipment so that they can excel in their passion. He
-          has created
-          <em
-            >websites, desktop software, android and iOS apps to meet people's
-            needs</em
-          >. He is dedicated to his work, and people have recognized that. He
-          has also provided excellent feedback, ensuring customer satisfaction.
-        </p>
-      </div>
+        <div class="column">
+
+        </div>
+        <div class="column">
+
+        </div>
     </div>
 
     <!--My Intrest-->
@@ -117,7 +122,8 @@
 
     <!-- copyright information -->
     <footer>
-      <em>&copy;copyright 2022 Diwakar Thapa</em>
+        <em>&copy;copyright 2022 Diwakar Thapa</em>
     </footer>
-  </body>
+</body>
+
 </html>
