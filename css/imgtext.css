@@ -12,8 +12,12 @@
     max-width: 30%; /* Limit image width */
 }
 .image {
-    width: 100%; /* Make image responsive */
+    display: block;
+    width: 90%; /* Make image responsive */
     height: auto;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Text styles */
