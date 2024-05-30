@@ -11,7 +11,7 @@
     header {
       padding: 10px;
       background-color: #000542;
-      opacity: 0.8;
+      opacity: 1;
       text-align: center;
       color: azure;
     }
@@ -27,12 +27,17 @@
       width: 100%;
     }
 
+    /* footerko fodification */
+    @media screen and (max-width: 600px) {
+      footer {
+        position: relative;
+        margin-top: 0px;
+      }
+    }
+
     p {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-
-
-
 
     a {
       color: white;
@@ -41,7 +46,7 @@
 
   <!-- nav ko lagi -->
   <style>
-        nav ul li {
+    nav ul li {
       font-size: x-large;
       display: inline-block;
       text-align: center;
@@ -49,31 +54,31 @@
     }
 
     ul.navbar li {
-            float: left;
-        }
-        ul.navbar li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 16px 60px;
-            text-decoration: none;
-        }
+      float: left;
+    }
+
+    ul.navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px 60px;
+      text-decoration: none;
+    }
+
     ul.navbar {
       text-align: center;
-      font-weight:bolder;
+      font-weight: bolder;
       background: url("img/fewasrk.JPG");
-      background-size:auto;
-      opacity: 0.4;
+      background-size: auto;
+      opacity: 0.8;
       overflow: hidden;
       list-style: none;
       padding: 0;
     }
+
     ul.navbar li a:hover {
-            background-color: #555;
-        }
-
-
-
+      background-color: #555;
+    }
   </style>
 
   <!-- bgimage ko opacity milauna ko lagi -->
@@ -128,7 +133,7 @@
 
 
 
-    <div style="text-align:left; margin-top: 550px; opacity: 0.5;" >
+    <div style="text-align:left; margin-top: 550px; opacity: 0.5;">
 
       <img src="img/avatar.png" height="11%" width="11%" />
     </div>
@@ -142,5 +147,6 @@
 
   </div>
 </body>
+
 
 </html>
