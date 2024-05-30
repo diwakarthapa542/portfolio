@@ -32,3 +32,20 @@
             margin-bottom: 10px;
         }
     }
+    .topic
+    {
+        text-align:center;
+        font-size: xx-large;
+        font-weight: 1000;
+    }
+
+    
+
+
+    /* choppeko content dekhauna */
+    .hidden-content {
+        display: none;
+    }
+    #toggle:checked + .hidden-content {
+        display: block;
+    }
